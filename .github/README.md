@@ -1,8 +1,13 @@
 # PS4 Plugins
 
 - [no-share-watermark](/no-share-watermark) Removes watermark from PS4 Screenshots when using Share Button
-- [universal-fliprate-remover](/no-share-watermark) Universally removes framerate limit for games using system library `sceVideoOutSetFlipRate`
+- [universal-fliprate-remover](/no-share-watermark) Removes framerate limit for games using system library `sceVideoOutSetFlipRate`
+- [game-patch](/game-patch) Patches game before boot.
 
-Requires [GoldHEN Plugin SDK](https://github.com/GoldHEN/) + [OpenOrbis SDK](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain).
+## Requirement
+
+- [GoldHEN Plugin SDK](https://github.com/GoldHEN/)
+- [OpenOrbis SDK](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain)
+- [tiny-json](https://github.com/rafagafe/tiny-json)
 
 Build `sh ./build.sh`
